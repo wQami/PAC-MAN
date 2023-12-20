@@ -6,6 +6,7 @@
 #define PAC_MAN_ENTITYVIEW_H
 
 #include "../Logic Library/Observer.h"
+#include "../Logic Library/Observer.h"
 
 namespace Game {
 

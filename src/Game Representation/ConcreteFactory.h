@@ -9,7 +9,7 @@
 
 namespace Game {
 
-    class ConcreteFactory : private Logic::AbstractFactory{
+    class ConcreteFactory : private Logic::SubjectFactory{
 
     };
 

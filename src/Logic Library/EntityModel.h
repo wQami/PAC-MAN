@@ -9,34 +9,28 @@
 
 namespace Logic {
 
-    class EntityModel : private Subject{
+    class EntityModel : public Subject{
+    private:
+        list<Observer*> _observers;
+        entities type;
+        int value;
+        bool eatable{};
+    public:
+        EntityModel();
+        explicit EntityModel(EntityModel *pModel);
 
+        [[nodiscard]] entities getType() const;
+        [[nodiscard]] bool isEatable() const;
+        [[nodiscard]] int getValue() const;
+
+        void setType(entities type);
+        void setEatable(bool eatable);
+        void setValue(int value);
+
+        void attach(Observer* &obs) override;
+        void detach(Observer* &obs) override;
+        void notify() override;
     };
-
-    class Ghost : private EntityModel{
-
-    };
-
-    class Wall : private EntityModel{
-
-    };
-
-    class Collectable : private EntityModel{
-
-    };
-
-    class Coin : private Collectable {
-
-    };
-
-    class Fruit : private Collectable {
-
-    };
-
-    class PacMan : private EntityModel{
-
-    };
-
 } // Logic
 
 #endif //PAC_MAN_ENTITYMODEL_H

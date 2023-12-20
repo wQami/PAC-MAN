@@ -105,14 +105,6 @@ build CMakeFiles/PAC-MAN.dir/src/Game_Representation/StateManager.cpp.obj: CXX_C
   OBJECT_DIR = CMakeFiles\PAC-MAN.dir
   OBJECT_FILE_DIR = CMakeFiles\PAC-MAN.dir\src\Game_Representation
 
-build CMakeFiles/PAC-MAN.dir/src/Logic_Library/Observer.cpp.obj: CXX_COMPILER__PAC-MAN_Debug C$:/Users/Qami/OneDrive/Documents/Bachelor$ Informatica$ 2$ (2023-2024)/Advanced$ Programming/PAC-MAN/src/Logic$ Library/Observer.cpp || cmake_object_order_depends_target_PAC-MAN
-  DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\PAC-MAN.dir\src\Logic_Library\Observer.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -I"C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-src/include"
-  OBJECT_DIR = CMakeFiles\PAC-MAN.dir
-  OBJECT_FILE_DIR = CMakeFiles\PAC-MAN.dir\src\Logic_Library
-
 build CMakeFiles/PAC-MAN.dir/src/Logic_Library/Subject.cpp.obj: CXX_COMPILER__PAC-MAN_Debug C$:/Users/Qami/OneDrive/Documents/Bachelor$ Informatica$ 2$ (2023-2024)/Advanced$ Programming/PAC-MAN/src/Logic$ Library/Subject.cpp || cmake_object_order_depends_target_PAC-MAN
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\PAC-MAN.dir\src\Logic_Library\Subject.cpp.obj.d
@@ -161,6 +153,94 @@ build CMakeFiles/PAC-MAN.dir/src/Logic_Library/AbstractFactory.cpp.obj: CXX_COMP
   OBJECT_DIR = CMakeFiles\PAC-MAN.dir
   OBJECT_FILE_DIR = CMakeFiles\PAC-MAN.dir\src\Logic_Library
 
+build CMakeFiles/PAC-MAN.dir/src/Game_Representation/States/MenuState.cpp.obj: CXX_COMPILER__PAC-MAN_Debug C$:/Users/Qami/OneDrive/Documents/Bachelor$ Informatica$ 2$ (2023-2024)/Advanced$ Programming/PAC-MAN/src/Game$ Representation/States/MenuState.cpp || cmake_object_order_depends_target_PAC-MAN
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\PAC-MAN.dir\src\Game_Representation\States\MenuState.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-src/include"
+  OBJECT_DIR = CMakeFiles\PAC-MAN.dir
+  OBJECT_FILE_DIR = CMakeFiles\PAC-MAN.dir\src\Game_Representation\States
+
+build CMakeFiles/PAC-MAN.dir/src/Game_Representation/States/LevelState.cpp.obj: CXX_COMPILER__PAC-MAN_Debug C$:/Users/Qami/OneDrive/Documents/Bachelor$ Informatica$ 2$ (2023-2024)/Advanced$ Programming/PAC-MAN/src/Game$ Representation/States/LevelState.cpp || cmake_object_order_depends_target_PAC-MAN
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\PAC-MAN.dir\src\Game_Representation\States\LevelState.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-src/include"
+  OBJECT_DIR = CMakeFiles\PAC-MAN.dir
+  OBJECT_FILE_DIR = CMakeFiles\PAC-MAN.dir\src\Game_Representation\States
+
+build CMakeFiles/PAC-MAN.dir/src/Game_Representation/States/PausedState.cpp.obj: CXX_COMPILER__PAC-MAN_Debug C$:/Users/Qami/OneDrive/Documents/Bachelor$ Informatica$ 2$ (2023-2024)/Advanced$ Programming/PAC-MAN/src/Game$ Representation/States/PausedState.cpp || cmake_object_order_depends_target_PAC-MAN
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\PAC-MAN.dir\src\Game_Representation\States\PausedState.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-src/include"
+  OBJECT_DIR = CMakeFiles\PAC-MAN.dir
+  OBJECT_FILE_DIR = CMakeFiles\PAC-MAN.dir\src\Game_Representation\States
+
+build CMakeFiles/PAC-MAN.dir/src/Game_Representation/States/VictoryState.cpp.obj: CXX_COMPILER__PAC-MAN_Debug C$:/Users/Qami/OneDrive/Documents/Bachelor$ Informatica$ 2$ (2023-2024)/Advanced$ Programming/PAC-MAN/src/Game$ Representation/States/VictoryState.cpp || cmake_object_order_depends_target_PAC-MAN
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\PAC-MAN.dir\src\Game_Representation\States\VictoryState.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-src/include"
+  OBJECT_DIR = CMakeFiles\PAC-MAN.dir
+  OBJECT_FILE_DIR = CMakeFiles\PAC-MAN.dir\src\Game_Representation\States
+
+build CMakeFiles/PAC-MAN.dir/src/Game_Representation/States/GameOverState.cpp.obj: CXX_COMPILER__PAC-MAN_Debug C$:/Users/Qami/OneDrive/Documents/Bachelor$ Informatica$ 2$ (2023-2024)/Advanced$ Programming/PAC-MAN/src/Game$ Representation/States/GameOverState.cpp || cmake_object_order_depends_target_PAC-MAN
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\PAC-MAN.dir\src\Game_Representation\States\GameOverState.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-src/include"
+  OBJECT_DIR = CMakeFiles\PAC-MAN.dir
+  OBJECT_FILE_DIR = CMakeFiles\PAC-MAN.dir\src\Game_Representation\States
+
+build CMakeFiles/PAC-MAN.dir/src/Logic_Library/Score.cpp.obj: CXX_COMPILER__PAC-MAN_Debug C$:/Users/Qami/OneDrive/Documents/Bachelor$ Informatica$ 2$ (2023-2024)/Advanced$ Programming/PAC-MAN/src/Logic$ Library/Score.cpp || cmake_object_order_depends_target_PAC-MAN
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\PAC-MAN.dir\src\Logic_Library\Score.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-src/include"
+  OBJECT_DIR = CMakeFiles\PAC-MAN.dir
+  OBJECT_FILE_DIR = CMakeFiles\PAC-MAN.dir\src\Logic_Library
+
+build CMakeFiles/PAC-MAN.dir/src/Logic_Library/Observer.cpp.obj: CXX_COMPILER__PAC-MAN_Debug C$:/Users/Qami/OneDrive/Documents/Bachelor$ Informatica$ 2$ (2023-2024)/Advanced$ Programming/PAC-MAN/src/Logic$ Library/Observer.cpp || cmake_object_order_depends_target_PAC-MAN
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\PAC-MAN.dir\src\Logic_Library\Observer.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-src/include"
+  OBJECT_DIR = CMakeFiles\PAC-MAN.dir
+  OBJECT_FILE_DIR = CMakeFiles\PAC-MAN.dir\src\Logic_Library
+
+build CMakeFiles/PAC-MAN.dir/src/Logic_Library/Models/Ghost.cpp.obj: CXX_COMPILER__PAC-MAN_Debug C$:/Users/Qami/OneDrive/Documents/Bachelor$ Informatica$ 2$ (2023-2024)/Advanced$ Programming/PAC-MAN/src/Logic$ Library/Models/Ghost.cpp || cmake_object_order_depends_target_PAC-MAN
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\PAC-MAN.dir\src\Logic_Library\Models\Ghost.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-src/include"
+  OBJECT_DIR = CMakeFiles\PAC-MAN.dir
+  OBJECT_FILE_DIR = CMakeFiles\PAC-MAN.dir\src\Logic_Library\Models
+
+build CMakeFiles/PAC-MAN.dir/src/Logic_Library/Models/Wall.cpp.obj: CXX_COMPILER__PAC-MAN_Debug C$:/Users/Qami/OneDrive/Documents/Bachelor$ Informatica$ 2$ (2023-2024)/Advanced$ Programming/PAC-MAN/src/Logic$ Library/Models/Wall.cpp || cmake_object_order_depends_target_PAC-MAN
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\PAC-MAN.dir\src\Logic_Library\Models\Wall.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-src/include"
+  OBJECT_DIR = CMakeFiles\PAC-MAN.dir
+  OBJECT_FILE_DIR = CMakeFiles\PAC-MAN.dir\src\Logic_Library\Models
+
+build CMakeFiles/PAC-MAN.dir/src/Logic_Library/Models/Collectable.cpp.obj: CXX_COMPILER__PAC-MAN_Debug C$:/Users/Qami/OneDrive/Documents/Bachelor$ Informatica$ 2$ (2023-2024)/Advanced$ Programming/PAC-MAN/src/Logic$ Library/Models/Collectable.cpp || cmake_object_order_depends_target_PAC-MAN
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\PAC-MAN.dir\src\Logic_Library\Models\Collectable.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-src/include"
+  OBJECT_DIR = CMakeFiles\PAC-MAN.dir
+  OBJECT_FILE_DIR = CMakeFiles\PAC-MAN.dir\src\Logic_Library\Models
+
+build CMakeFiles/PAC-MAN.dir/src/Logic_Library/Models/PacMan.cpp.obj: CXX_COMPILER__PAC-MAN_Debug C$:/Users/Qami/OneDrive/Documents/Bachelor$ Informatica$ 2$ (2023-2024)/Advanced$ Programming/PAC-MAN/src/Logic$ Library/Models/PacMan.cpp || cmake_object_order_depends_target_PAC-MAN
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\PAC-MAN.dir\src\Logic_Library\Models\PacMan.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-src/include"
+  OBJECT_DIR = CMakeFiles\PAC-MAN.dir
+  OBJECT_FILE_DIR = CMakeFiles\PAC-MAN.dir\src\Logic_Library\Models
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target PAC-MAN
@@ -169,7 +249,7 @@ build CMakeFiles/PAC-MAN.dir/src/Logic_Library/AbstractFactory.cpp.obj: CXX_COMP
 #############################################
 # Link the executable bin\PAC-MAN.exe
 
-build bin/PAC-MAN.exe: CXX_EXECUTABLE_LINKER__PAC-MAN_Debug CMakeFiles/PAC-MAN.dir/src/main.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/Game.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/EntityView.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/Camera.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/ConcreteFactory.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/State.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/StateManager.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/Observer.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/Subject.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/Random.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/Stopwatch.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/World.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/EntityModel.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/AbstractFactory.cpp.obj | _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-src/extlibs/libs-mingw/x64/libfreetype.a || _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a
+build bin/PAC-MAN.exe: CXX_EXECUTABLE_LINKER__PAC-MAN_Debug CMakeFiles/PAC-MAN.dir/src/main.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/Game.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/EntityView.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/Camera.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/ConcreteFactory.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/State.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/StateManager.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/Subject.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/Random.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/Stopwatch.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/World.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/EntityModel.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/AbstractFactory.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/States/MenuState.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/States/LevelState.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/States/PausedState.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/States/VictoryState.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/States/GameOverState.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/Score.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/Observer.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/Models/Ghost.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/Models/Wall.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/Models/Collectable.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/Models/PacMan.cpp.obj | _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-src/extlibs/libs-mingw/x64/libfreetype.a || _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a
   FLAGS = -g
   LINK_LIBRARIES = _deps/sfml-build/lib/libsfml-graphics-s-d.a  _deps/sfml-build/lib/libsfml-window-s-d.a  _deps/sfml-build/lib/libsfml-system-s-d.a  -lopengl32  -lwinmm  -lgdi32  _deps/sfml-src/extlibs/libs-mingw/x64/libfreetype.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\PAC-MAN.dir

@@ -3,6 +3,13 @@
 //
 
 #include "Subject.h"
+#include <algorithm>
+#include <iostream>
 
 namespace Logic {
+
+
+    Subject::~Subject() {
+        cout << "Subject destroyed" << endl;
+    }
 } // Logic

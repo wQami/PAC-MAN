@@ -1,17 +1,20 @@
 //
-// Created by Qami on 11/23/2023.
+// Created by Qami on 11/28/2023.
 //
 
 #ifndef PAC_MAN_OBSERVER_H
 #define PAC_MAN_OBSERVER_H
 
+#include "Observer.h"
+
 namespace Logic {
 
+    class EntityModel;
+
     class Observer {
-    };
-
-    class Score : private Observer {
-
+    public:
+        ~Observer() = default;
+        virtual void update(EntityModel *subject) = 0;
     };
 
 } // Logic
