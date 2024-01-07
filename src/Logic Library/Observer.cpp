@@ -4,5 +4,4 @@
 
 #include "Observer.h"
 
-namespace Logic {
-} // Logic
+namespace Logic {} // namespace Logic

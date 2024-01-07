@@ -5,18 +5,21 @@
 #ifndef PAC_MAN_MENUSTATE_H
 #define PAC_MAN_MENUSTATE_H
 
-#include <set>
+#pragma once
 #include "../State.h"
+#include <set>
 
 namespace Game {
+class MenuState : public State {
+public:
+    MenuState();
+    explicit MenuState(const shared_ptr<StateManager>& s);
+    void draw(RenderWindow& window) override;
+    void keyPress() override;
 
-    class MenuState : public State {
-    private:
-    public:
-        MenuState();
-        ~MenuState() override = default;
-    };
+    void handlePeriod() override;
+};
 
-} // Game
+} // namespace Game
 
-#endif //PAC_MAN_MENUSTATE_H
+#endif // PAC_MAN_MENUSTATE_H

@@ -6,13 +6,19 @@
 #define PAC_MAN_VICTORYSTATE_H
 
 #include "../State.h"
+#include "../StateManager.h"
 
 namespace Game {
 
-    class VictoryState : State {
+class VictoryState : public State {
+private:
+public:
+    explicit VictoryState(const shared_ptr<StateManager>& context);
+    void draw(RenderWindow& window) override;
+    void keyPress() override;
 
-    };
+    void handlePeriod() override;
+};
+} // namespace Game
 
-} // Game
-
-#endif //PAC_MAN_VICTORYSTATE_H
+#endif // PAC_MAN_VICTORYSTATE_H

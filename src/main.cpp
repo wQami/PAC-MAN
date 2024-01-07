@@ -1,20 +1,17 @@
+#include "Game Representation/Game.h"
+#include "Logic Library/Random.h"
+#include "Logic Library/Score.h"
 #include <SFML/Graphics.hpp>
 #include <iostream>
-#include "Game Representation/Game.h"
-#include "Logic Library/Score.h"
-#include "Logic Library/Random.h"
 
 using namespace std;
-using namespace sf; //SFML Graphics
+using namespace sf; // SFML Graphics
 
-int main()
-{
-    Logic::Score score{};
-    auto random = Logic::Random::getInstance();
-    cout << random->receiveRandom(1,4) << endl;
-    Logic::World w("map.txt");
-    w.attachObservers(&score);
-    w.run();
-//    Game::Game g;
-//    g.run();
+int main() {
+    //    Logic::World w("map.txt",5);
+    //    shared_ptr<Logic::Observer> observer = make_shared<Logic::Score>();
+    //    w.attachObservers(observer);
+    //    w.runConsole();
+    Game::Game g;
+    g.run();
 }

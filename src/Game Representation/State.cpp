@@ -6,4 +6,7 @@
 
 namespace Game {
 
-} // Game
+State::State(const shared_ptr<StateManager> stateManager) : stateManager(stateManager) {}
+
+shared_ptr<StateManager> State::getStateManager() const { return stateManager; }
+} // namespace Game

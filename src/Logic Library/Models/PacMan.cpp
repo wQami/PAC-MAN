@@ -3,48 +3,42 @@
 //
 
 #include "PacMan.h"
+#include "../Stopwatch.h"
+#include <cmath>
+#include <iostream>
 
 namespace Logic {
-    PacMan::PacMan() {
-        setValue(3);
-        setType(PACMAN);
-    }
+PacMan::PacMan() { setType(PACMAN); }
 
-    const pair<int, int> &PacMan::getStartLocation() const {
-        return startLocation;
-    }
+const position& PacMan::getStartLocation() const { return startLocation; }
 
-    const pair<int, int> &PacMan::getLocation() const {
-        return location;
-    }
+const position& PacMan::getLocation() const { return EntityModel::getLocation(); }
 
-    void PacMan::setLocation(const pair<int, int> &location) {
-        PacMan::location = location;
-        PacMan::startLocation = location;
-    }
+directions PacMan::getDirection() const { return EntityModel::getDirection(); }
 
-    void PacMan::move(events e) {
-        switch (e) {
-            case MOVE_UP:
-                location.first-=1;
-                break;
-            case MOVE_DOWN:
-                location.first+=1;
-                break;
-            case MOVE_LEFT:
-                location.second-=1;
-                break;
-            case MOVE_RIGHT:
-                location.second+=1;
-                break;
-            default:
-                break;
-        }
-    }
+void PacMan::setLocation(const position& location) {
+    EntityModel::setLocation(location);
+    PacMan::startLocation = location;
+    EntityModel::notify();
+}
 
-    void PacMan::hit() {
-        if(getValue() != 0){
-            setValue(getValue()-1);
-        }
-    }
-} // Logic
+void PacMan::move(directions e) {
+    setDirection(e);
+    position location = getLocation();
+    location.x += possibleDirections[e].x;
+    location.y += possibleDirections[e].y;
+    EntityModel::setLocation(location);
+    EntityModel::notify();
+}
+
+void PacMan::hit() {
+    setValue(1);
+    EntityModel::notify();
+    setValue(0);
+}
+
+void PacMan::resetPosition() {
+    setLocation(startLocation);
+    EntityModel::notify();
+}
+} // namespace Logic

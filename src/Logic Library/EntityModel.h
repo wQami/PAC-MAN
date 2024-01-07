@@ -9,28 +9,39 @@
 
 namespace Logic {
 
-    class EntityModel : public Subject{
-    private:
-        list<Observer*> _observers;
-        entities type;
-        int value;
-        bool eatable{};
-    public:
-        EntityModel();
-        explicit EntityModel(EntityModel *pModel);
+typedef shared_ptr<EntityModel> sharedEntityModel;
+typedef vector<vector<sharedEntityModel>> tilemap;
 
-        [[nodiscard]] entities getType() const;
-        [[nodiscard]] bool isEatable() const;
-        [[nodiscard]] int getValue() const;
+class EntityModel : public Subject {
+private:
+    list<shared_ptr<Observer>> _observers;
+    entities type;
+    int value;
+    bool eatable{};
+    position location;
+    directions direction;
 
-        void setType(entities type);
-        void setEatable(bool eatable);
-        void setValue(int value);
+public:
+    EntityModel();
+    explicit EntityModel(EntityModel* pModel);
 
-        void attach(Observer* &obs) override;
-        void detach(Observer* &obs) override;
-        void notify() override;
-    };
-} // Logic
+    [[nodiscard]] entities getType() const;
+    [[nodiscard]] bool isEatable() const;
+    [[nodiscard]] int getValue() const;
 
-#endif //PAC_MAN_ENTITYMODEL_H
+    [[nodiscard]] virtual directions getDirection() const;
+    [[nodiscard]] virtual const position& getLocation() const;
+
+    void setType(entities type);
+    void setEatable(bool eatable);
+    void setValue(int value);
+    void setLocation(position p);
+    void setDirection(directions d);
+
+    void attach(shared_ptr<Observer>& obs) override;
+    void detach(shared_ptr<Observer>& obs) override;
+    void notify() override;
+};
+} // namespace Logic
+
+#endif // PAC_MAN_ENTITYMODEL_H

@@ -1,0 +1,20 @@
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xy-------------------------yx
+x-xxxxxx-xxxxxxxxxxx-xxxxxx-x
+x-----yx-------------xy-----x
+x-xxxx-x-xxxxx-xxxxx-x-xxxx-x
+x----x-x-------------x-x----x
+x-xx-x-x-xxxxx-xxxxx-x-x-xx-x
+x----x-----------------x----x
+x-xx-x-x-x-xxx=xxx-x-x-x-xx-x
+x------x-x-xg   gx-x-x-x-xx-x
+x-xx-x-x-x-xg   gx-x-x------x
+x-xx-x-x-x-xxxxxxx-x-x-x-xx-x
+x----x-----------------x----x
+x-xx-x-x-xxxxx-xxxxx-x-x-xx-x
+x----x-x-------------x-x----x
+x-xxxx-x-xxxxx-xxxxx-x-xxxx-x
+x-----yx-------------xy-----x
+x-xxxxxx-xxxxxxxxxxx-xxxxxx-x
+xy------------O------------yx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxx

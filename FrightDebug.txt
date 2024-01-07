@@ -1,0 +1,9 @@
+dddwwddssddd
+
+        cout << "Frightened Ghost: " << color << endl;
+        cout << "Current location: {" << location.x << "," << location.y << "}" << endl;
+        cout << "Current direction: " << d << endl;
+        cout << boolalpha << (d == arrivedDirection)<< endl;
+        cout << boolalpha << (nextType == WALL) << endl;
+        cout << boolalpha << (nextType == GHOST) << endl;
+        cout << boolalpha << (nextType == DOOR && isOutOfCage()) << endl;

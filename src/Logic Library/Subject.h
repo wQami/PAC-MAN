@@ -5,26 +5,25 @@
 #ifndef PAC_MAN_SUBJECT_H
 #define PAC_MAN_SUBJECT_H
 
-#include <string>
+#include "../global.h"
+#include "../globalGame.h"
+#include "Observer.h"
 #include <list>
 #include <memory>
-#include "Observer.h"
-#include "../enum.h"
+#include <string>
 using namespace std;
 
 namespace Logic {
 
-    class Subject {
-    public:
-        Subject() = default;
-        ~Subject();
-        virtual void attach(Observer* &obs) = 0;
-        virtual void detach(Observer* &obs) = 0;
-        virtual void notify() = 0;
-    };
+class Subject {
+public:
+    Subject() = default;
+    ~Subject();
+    virtual void attach(shared_ptr<Observer>& obs) = 0;
+    virtual void detach(shared_ptr<Observer>& obs) = 0;
+    virtual void notify() = 0;
+};
 
+} // namespace Logic
 
-
-} // Logic
-
-#endif //PAC_MAN_SUBJECT_H
+#endif // PAC_MAN_SUBJECT_H

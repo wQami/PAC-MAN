@@ -3,24 +3,31 @@
 //
 
 #include "StateManager.h"
-
 namespace Game {
+void StateManager::pop() { stateManager.pop(); }
 
+void StateManager::push(const states& s, const shared_ptr<StateManager>& StateManager) {
+    stateManager.push(Game::StateFactory::stateFactory(s, StateManager));
+}
 
-    StateManager::StateManager() {
-        auto* start = new MenuState();
-        stateManager.emplace(start);
-    }
+State* StateManager::top() { return stateManager.top(); }
 
-    void StateManager::pop() {
+int StateManager::size() { return stateManager.size(); }
 
-    }
+const shared_ptr<Logic::Score>& StateManager::getScore() const { return score; }
 
-    void StateManager::push() {
+int& StateManager::getLevel() { return level; }
 
-    }
+void StateManager::setLevel(int level) { StateManager::level = level; }
 
-    State* StateManager::top() {
-        return stateManager.top();
-    }
-} // Game
+StateManager::StateManager() : score(make_shared<Logic::Score>()), camera(make_shared<Camera>()), level(0) {}
+
+const shared_ptr<Camera>& StateManager::getCamera() const { return camera; }
+
+void StateManager::resetStats() { score->resetStats(); }
+
+void StateManager::incLevel() {
+    cout << "Level up!" << endl;
+    level++;
+}
+} // namespace Game

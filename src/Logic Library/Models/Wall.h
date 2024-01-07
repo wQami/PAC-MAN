@@ -9,21 +9,26 @@
 
 namespace Logic {
 
-    class Wall : public EntityModel{
-    private:
-    public:
-        Wall();
-    };
+class Wall : public EntityModel {
+private:
+public:
+    Wall();
+};
 
-    class Door : public Wall{
-    private:
-        bool isOpen{};
-    public:
-        Door();
-        void open();
-        void close();
-    };
+class Door : public Wall {
+private:
+    int doorInterval;
 
-} // Logic
+public:
+    Door();
 
-#endif //PAC_MAN_WALL_H
+    void open();
+    void close();
+
+    bool isClosed();
+    bool itsTime();
+};
+
+} // namespace Logic
+
+#endif // PAC_MAN_WALL_H

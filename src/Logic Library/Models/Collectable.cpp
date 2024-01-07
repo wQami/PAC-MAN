@@ -5,26 +5,22 @@
 #include "Collectable.h"
 
 namespace Logic {
-    Collectable::Collectable() {
-        setType(EMPTY);
-        setEatable(true);
-    }
+Collectable::Collectable() {
+    setType(EMPTY);
+    setEatable(true);
+}
 
-    Coin::Coin() {
-        setValue(100);
-        setType(COIN);
-    }
+Coin::Coin() {
+    setValue(10);
+    setType(COIN);
+}
 
-    void Coin::notify() {
-        Logic::EntityModel::notify();
-    }
+void Coin::notify() { Logic::EntityModel::notify(); }
 
-    Fruit::Fruit() {
-        setValue(200);
-        setType(FRUIT);
-    }
+Fruit::Fruit() {
+    setValue(100);
+    setType(FRUIT);
+}
 
-    void Fruit::notify() {
-        EntityModel::notify();
-    }
-} // Logic
+void Fruit::notify() { EntityModel::notify(); }
+} // namespace Logic

@@ -5,29 +5,47 @@
 #ifndef PAC_MAN_STOPWATCH_H
 #define PAC_MAN_STOPWATCH_H
 
-#include "ctime"
+#include <chrono>
+#include <ctime>
+#include <memory>
+
+using namespace std;
+using namespace std::chrono;
 
 namespace Logic {
 
-    class Stopwatch {
-    private:
-        double deltaTime = 0;
-        double prevTime = 0;
-        static Stopwatch* instance;
-        Stopwatch() = default;
-    public:
-        ~Stopwatch() = default;
+class Stopwatch {
+private:
+    time_point<high_resolution_clock> prevTime;
+    time_point<high_resolution_clock> prevprevTime;
+    chrono::seconds startSecond;
+    chrono::seconds frightSecond;
+    chrono::milliseconds lastCoinSecond;
+    chrono::milliseconds zeroSecond;
+    inline static shared_ptr<Stopwatch> m_instance;
 
-        void calcDeltaTime();
-        int seconds();
+    bool frightAlmostDue;
+    Stopwatch();
 
-        static Stopwatch* getInstance(){
-            if(!instance)
-                instance = new Stopwatch();
-            return instance;
-        };
-    };
+public:
+    ~Stopwatch() = default;
 
-} // Logic
+    [[nodiscard]] bool isFrightAlmostDue() const;
 
-#endif //PAC_MAN_STOPWATCH_H
+    void reset();
+    void resetCoin();
+    void resetFright();
+    void newDeltaTime();
+    float calcDeltaTime();
+    int calcFrames();
+    double timeSinceLastCoin();
+    void frightLeft(const int& s);
+    bool secondsPassed(const int& s);
+    bool totalPassed(const double& ms, int&);
+
+    static shared_ptr<Stopwatch> getInstance();
+};
+
+} // namespace Logic
+
+#endif // PAC_MAN_STOPWATCH_H

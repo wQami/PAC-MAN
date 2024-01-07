@@ -7,9 +7,5 @@
 #include <iostream>
 
 namespace Logic {
-
-
-    Subject::~Subject() {
-        cout << "Subject destroyed" << endl;
-    }
-} // Logic
+Subject::~Subject() { ; }
+} // namespace Logic

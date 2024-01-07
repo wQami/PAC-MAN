@@ -9,18 +9,27 @@
 
 namespace Logic {
 
-    class PacMan : public EntityModel{
+    class PacMan : public EntityModel {
     private:
-        pair<int,int> startLocation;
-        pair<int,int> location;
+        position startLocation{};
+        sf::Vector2f drawLocation;
+        // Direction is used here as the direction Pac-Man is facing
     public:
         PacMan();
 
-        [[nodiscard]] const pair<int, int> &getStartLocation() const;
-        [[nodiscard]] const pair<int, int> &getLocation() const;
-        void setLocation(const pair<int, int> &location);
-        void move(events);
+        [[nodiscard]] const position &getStartLocation() const;
+
+        [[nodiscard]] const position &getLocation() const;
+
+        [[nodiscard]] directions getDirection() const override;
+
+        void setLocation(const position &location);
+
+        void move(directions);
+
         void hit();
+
+        void resetPosition();
     };
 
 } // Logic

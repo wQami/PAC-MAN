@@ -9,26 +9,26 @@
 
 namespace Logic {
 
-    class Collectable : public EntityModel{
-    private:
-    public:
-        Collectable();
-    };
+class Collectable : public EntityModel {
+private:
+public:
+    Collectable();
+};
 
-    class Coin : public Collectable {
-    private:
-    public:
-        Coin();
-        void notify() override;
-    };
+class Coin : public Collectable {
+private:
+public:
+    Coin();
+    void notify() override;
+};
 
-    class Fruit : public Collectable {
-    private:
-    public:
-        Fruit();
-        void notify() override;
-    };
+class Fruit : public Collectable {
+private:
+public:
+    Fruit();
+    void notify() override;
+};
 
-} // Logic
+} // namespace Logic
 
-#endif //PAC_MAN_COLLECTABLE_H
+#endif // PAC_MAN_COLLECTABLE_H

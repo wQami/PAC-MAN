@@ -9,14 +9,15 @@
 
 namespace Logic {
 
-    class EntityModel;
+class EntityModel;
 
-    class Observer {
-    public:
-        ~Observer() = default;
-        virtual void update(EntityModel *subject) = 0;
-    };
+class Observer {
+public:
+    Observer() = default;
+    ~Observer() = default;
+    virtual void update(EntityModel* subject) = 0;
+};
 
-} // Logic
+} // namespace Logic
 
-#endif //PAC_MAN_OBSERVER_H
+#endif // PAC_MAN_OBSERVER_H

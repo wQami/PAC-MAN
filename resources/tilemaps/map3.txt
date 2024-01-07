@@ -1,0 +1,22 @@
+xxxxxxxxxxxxxxxxxxxxxxxxx
+x-----------x-----------x
+x-xxxx-xxxx-x-xxxx-xxxx-x
+xyxxxx-xxxx-x-xxxx-xxxxyx
+x-----------------------x
+x-xxxx-x-xxxxxxx-x-xxxx-x
+x------x----x----x------x
+xxxxxx-xxxx-x-xxxx-xxxxxx
+bbbbbx-xx   g   xx-xbbbbb
+bbbbbx-xx xx=xx xx-xbbbbb
+xxxxxx-   xgggx   -xxxxxx
+bbbbbx-xx xxxxx xx-xbbbbb
+bbbbbx-xx       xx-xbbbbb
+xxxxxx-xx xxxxx xx-xxxxxx
+x-----------x-----------x
+x-xxxx-xxxx-x-xxxx-xxxx-x
+xy--xx------O------xx--yx
+xxx-xx-x-xxxxxxx-x-xx-xxx
+x------x----x----x------x
+x-xxxxxxxxx-x-xxxxxxxxx-x
+x-----------------------x
+xxxxxxxxxxxxxxxxxxxxxxxxx

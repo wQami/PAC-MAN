@@ -241,6 +241,46 @@ build CMakeFiles/PAC-MAN.dir/src/Logic_Library/Models/PacMan.cpp.obj: CXX_COMPIL
   OBJECT_DIR = CMakeFiles\PAC-MAN.dir
   OBJECT_FILE_DIR = CMakeFiles\PAC-MAN.dir\src\Logic_Library\Models
 
+build CMakeFiles/PAC-MAN.dir/src/global.cpp.obj: CXX_COMPILER__PAC-MAN_Debug C$:/Users/Qami/OneDrive/Documents/Bachelor$ Informatica$ 2$ (2023-2024)/Advanced$ Programming/PAC-MAN/src/global.cpp || cmake_object_order_depends_target_PAC-MAN
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\PAC-MAN.dir\src\global.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-src/include"
+  OBJECT_DIR = CMakeFiles\PAC-MAN.dir
+  OBJECT_FILE_DIR = CMakeFiles\PAC-MAN.dir\src
+
+build CMakeFiles/PAC-MAN.dir/src/Logic_Library/FileReader.cpp.obj: CXX_COMPILER__PAC-MAN_Debug C$:/Users/Qami/OneDrive/Documents/Bachelor$ Informatica$ 2$ (2023-2024)/Advanced$ Programming/PAC-MAN/src/Logic$ Library/FileReader.cpp || cmake_object_order_depends_target_PAC-MAN
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\PAC-MAN.dir\src\Logic_Library\FileReader.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-src/include"
+  OBJECT_DIR = CMakeFiles\PAC-MAN.dir
+  OBJECT_FILE_DIR = CMakeFiles\PAC-MAN.dir\src\Logic_Library
+
+build CMakeFiles/PAC-MAN.dir/src/Logic_Library/FileWriter.cpp.obj: CXX_COMPILER__PAC-MAN_Debug C$:/Users/Qami/OneDrive/Documents/Bachelor$ Informatica$ 2$ (2023-2024)/Advanced$ Programming/PAC-MAN/src/Logic$ Library/FileWriter.cpp || cmake_object_order_depends_target_PAC-MAN
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\PAC-MAN.dir\src\Logic_Library\FileWriter.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-src/include"
+  OBJECT_DIR = CMakeFiles\PAC-MAN.dir
+  OBJECT_FILE_DIR = CMakeFiles\PAC-MAN.dir\src\Logic_Library
+
+build CMakeFiles/PAC-MAN.dir/src/Game_Representation/StateFactory.cpp.obj: CXX_COMPILER__PAC-MAN_Debug C$:/Users/Qami/OneDrive/Documents/Bachelor$ Informatica$ 2$ (2023-2024)/Advanced$ Programming/PAC-MAN/src/Game$ Representation/StateFactory.cpp || cmake_object_order_depends_target_PAC-MAN
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\PAC-MAN.dir\src\Game_Representation\StateFactory.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-src/include"
+  OBJECT_DIR = CMakeFiles\PAC-MAN.dir
+  OBJECT_FILE_DIR = CMakeFiles\PAC-MAN.dir\src\Game_Representation
+
+build CMakeFiles/PAC-MAN.dir/src/globalGame.cpp.obj: CXX_COMPILER__PAC-MAN_Debug C$:/Users/Qami/OneDrive/Documents/Bachelor$ Informatica$ 2$ (2023-2024)/Advanced$ Programming/PAC-MAN/src/globalGame.cpp || cmake_object_order_depends_target_PAC-MAN
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\PAC-MAN.dir\src\globalGame.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-src/include"
+  OBJECT_DIR = CMakeFiles\PAC-MAN.dir
+  OBJECT_FILE_DIR = CMakeFiles\PAC-MAN.dir\src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target PAC-MAN
@@ -249,7 +289,7 @@ build CMakeFiles/PAC-MAN.dir/src/Logic_Library/Models/PacMan.cpp.obj: CXX_COMPIL
 #############################################
 # Link the executable bin\PAC-MAN.exe
 
-build bin/PAC-MAN.exe: CXX_EXECUTABLE_LINKER__PAC-MAN_Debug CMakeFiles/PAC-MAN.dir/src/main.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/Game.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/EntityView.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/Camera.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/ConcreteFactory.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/State.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/StateManager.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/Subject.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/Random.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/Stopwatch.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/World.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/EntityModel.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/AbstractFactory.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/States/MenuState.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/States/LevelState.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/States/PausedState.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/States/VictoryState.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/States/GameOverState.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/Score.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/Observer.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/Models/Ghost.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/Models/Wall.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/Models/Collectable.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/Models/PacMan.cpp.obj | _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-src/extlibs/libs-mingw/x64/libfreetype.a || _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a
+build bin/PAC-MAN.exe: CXX_EXECUTABLE_LINKER__PAC-MAN_Debug CMakeFiles/PAC-MAN.dir/src/main.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/Game.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/EntityView.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/Camera.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/ConcreteFactory.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/State.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/StateManager.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/Subject.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/Random.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/Stopwatch.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/World.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/EntityModel.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/AbstractFactory.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/States/MenuState.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/States/LevelState.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/States/PausedState.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/States/VictoryState.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/States/GameOverState.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/Score.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/Observer.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/Models/Ghost.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/Models/Wall.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/Models/Collectable.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/Models/PacMan.cpp.obj CMakeFiles/PAC-MAN.dir/src/global.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/FileReader.cpp.obj CMakeFiles/PAC-MAN.dir/src/Logic_Library/FileWriter.cpp.obj CMakeFiles/PAC-MAN.dir/src/Game_Representation/StateFactory.cpp.obj CMakeFiles/PAC-MAN.dir/src/globalGame.cpp.obj | _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-src/extlibs/libs-mingw/x64/libfreetype.a || _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a
   FLAGS = -g
   LINK_LIBRARIES = _deps/sfml-build/lib/libsfml-graphics-s-d.a  _deps/sfml-build/lib/libsfml-window-s-d.a  _deps/sfml-build/lib/libsfml-system-s-d.a  -lopengl32  -lwinmm  -lgdi32  _deps/sfml-src/extlibs/libs-mingw/x64/libfreetype.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\PAC-MAN.dir

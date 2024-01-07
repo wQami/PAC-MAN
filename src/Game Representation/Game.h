@@ -5,24 +5,27 @@
 #ifndef PAC_MAN_GAME_H
 #define PAC_MAN_GAME_H
 
-#include <string>
+#include "../Logic Library/Stopwatch.h"
+#include "../Logic Library/World.h"
 #include "SFML/Graphics.hpp"
 #include "StateManager.h"
-#include "../Logic Library/World.h"
+#include <string>
 
 using namespace std;
 using namespace sf;
 
 namespace Game {
-    class Game {
-    private:
-        RenderWindow window;
-        StateManager stateManager;
-        Logic::World* world;
+class Game {
+private:
+    RenderWindow window;
+    shared_ptr<StateManager> stateManager;
 
-    public:
-        void run();
-    };
+public:
+    void run();
+    void handleStackChange(int&);
+    void drawLevel();
+    Game();
 };
+}; // namespace Game
 
-#endif //PAC_MAN_GAME_H
+#endif // PAC_MAN_GAME_H

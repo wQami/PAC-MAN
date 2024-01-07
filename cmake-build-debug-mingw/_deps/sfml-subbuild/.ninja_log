@@ -1,37 +1,37 @@
 # ninja log v5
 1	62	7222110967448820	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir	c5fc96daeeba53be
 1	62	7222110967448820	C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir	c5fc96daeeba53be
-1	1616	0	C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	e25f8463e2ce0cac
+1	2046	0	C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	e25f8463e2ce0cac
 63	8004	7222111046863847	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download	38a01548bb459663
-1	1616	0	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	e25f8463e2ce0cac
-1899	1982	7232573209184404	C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete	ab3db17c7efc5edb
+1	2046	0	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	e25f8463e2ce0cac
+2378	2478	7253542617448309	C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete	ab3db17c7efc5edb
 63	8004	7222111046863847	C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download	38a01548bb459663
-1616	1672	7232573206094420	C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	befab55ffb425b7c
-1616	1672	7232573206094420	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	befab55ffb425b7c
-1673	1726	7232573206634404	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	e07d9be62db18076
-1673	1726	7232573206634404	C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	e07d9be62db18076
-1727	1786	7232573207239401	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	bba8b8c846ff2955
-1727	1786	7232573207239401	C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	bba8b8c846ff2955
-1786	1840	7232573207774403	C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	2923cd2b9831d563
-1786	1840	7232573207774403	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	2923cd2b9831d563
-1840	1899	7232573208364401	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	5159eba467906bd9
-1840	1899	7232573208364401	C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	5159eba467906bd9
-1899	1982	7232573209184404	CMakeFiles/sfml-populate-complete	ab3db17c7efc5edb
-1899	1982	7232573209184404	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	ab3db17c7efc5edb
-1899	1982	7232573209184404	C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	ab3db17c7efc5edb
-1	1625	0	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	e25f8463e2ce0cac
-1	1625	0	C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	e25f8463e2ce0cac
-1625	1683	7232573300645980	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	befab55ffb425b7c
-1625	1683	7232573300645980	C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	befab55ffb425b7c
-1683	1744	7232573301235979	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	e07d9be62db18076
-1683	1744	7232573301235979	C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	e07d9be62db18076
-1744	1801	7232573301835983	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	bba8b8c846ff2955
-1744	1801	7232573301835983	C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	bba8b8c846ff2955
-1802	1853	7232573302356009	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	2923cd2b9831d563
-1802	1853	7232573302356009	C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	2923cd2b9831d563
-1854	1913	7232573302935984	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	5159eba467906bd9
-1854	1913	7232573302935984	C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	5159eba467906bd9
-1913	1997	7232573303781001	CMakeFiles/sfml-populate-complete	ab3db17c7efc5edb
-1913	1997	7232573303781001	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	ab3db17c7efc5edb
-1913	1997	7232573303781001	C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete	ab3db17c7efc5edb
-1913	1997	7232573303781001	C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	ab3db17c7efc5edb
+2046	2125	7253542613933312	C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	befab55ffb425b7c
+2046	2125	7253542613933312	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	befab55ffb425b7c
+2126	2183	7253542614508329	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	e07d9be62db18076
+2126	2183	7253542614508329	C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	e07d9be62db18076
+2183	2235	7253542615038332	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	bba8b8c846ff2955
+2183	2235	7253542615038332	C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	bba8b8c846ff2955
+2236	2307	7253542615733314	C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	2923cd2b9831d563
+2236	2307	7253542615733314	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	2923cd2b9831d563
+2308	2377	7253542616448314	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	5159eba467906bd9
+2308	2377	7253542616448314	C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	5159eba467906bd9
+2378	2478	7253542617448309	CMakeFiles/sfml-populate-complete	ab3db17c7efc5edb
+2378	2478	7253542617448309	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	ab3db17c7efc5edb
+2378	2478	7253542617448309	C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	ab3db17c7efc5edb
+1	4165	0	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	e25f8463e2ce0cac
+1	4165	0	C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	e25f8463e2ce0cac
+4165	4284	7260075488618500	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	befab55ffb425b7c
+4165	4284	7260075488618500	C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	befab55ffb425b7c
+4284	4390	7260075489533519	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	e07d9be62db18076
+4284	4390	7260075489533519	C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	e07d9be62db18076
+4391	4478	7260075490568512	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	bba8b8c846ff2955
+4391	4478	7260075490568512	C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	bba8b8c846ff2955
+4478	4579	7260075491578511	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	2923cd2b9831d563
+4478	4579	7260075491578511	C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	2923cd2b9831d563
+4579	4674	7260075492508512	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	5159eba467906bd9
+4579	4674	7260075492508512	C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	5159eba467906bd9
+4674	4840	7260075494163508	CMakeFiles/sfml-populate-complete	ab3db17c7efc5edb
+4674	4840	7260075494163508	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	ab3db17c7efc5edb
+4674	4840	7260075494163508	C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete	ab3db17c7efc5edb
+4674	4840	7260075494163508	C:/Users/Qami/OneDrive/Documents/Bachelor Informatica 2 (2023-2024)/Advanced Programming/PAC-MAN/cmake-build-debug-mingw/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	ab3db17c7efc5edb

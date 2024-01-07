@@ -6,27 +6,54 @@
 #define PAC_MAN_GHOST_H
 
 #include "../EntityModel.h"
+#include "PacMan.h"
+#include <vector>
 
 namespace Logic {
 
-    class Ghost : public EntityModel{
-    private:
-        colors color;
-        pair<int,int> startLocation;
-        pair<int,int> location;
-    public:
-        Ghost();
-        explicit Ghost(colors c);
+class Ghost : public EntityModel {
+private:
+    colors color;
+    position startLocation{};
+    position scatterTarget{};
+    sharedEntityModel underGhost;
+    bool outOfCage;
+    bool startRound;
+    int modeIndex;
+    int level;
 
-        [[nodiscard]] colors getColor() const;
-        [[nodiscard]] const pair<int, int> &getStartLocation() const;
-        [[nodiscard]] const pair<int, int> &getLocation() const;
+    // Direction is used here as the direction where the ghost arrived from.
+public:
+    Ghost();
+    explicit Ghost(int i);
 
-        void setColor(colors color);
-        void setLocation(const pair<int, int> &location);
-    };
+    [[nodiscard]] colors getColor() const;
+    [[nodiscard]] const position& getStartLocation() const;
+    [[nodiscard]] const position& getLocation() const override;
+    [[nodiscard]] const sharedEntityModel& getUnderGhost() const;
+    [[nodiscard]] bool isOutOfCage() const;
+    [[nodiscard]] bool hasStarted() const;
 
+    void setLocation(const position& location);
+    void setScatterTarget(const position& scatterTarget);
+    void setUnderGhost(const sharedEntityModel& uG);
+    void setLevel(const int& l);
 
-} // Logic
+    void gotOutOfCage();
+    void backInCage();
+    void roundStart();
+    void roundWaitTurn();
+    void frighten();
 
-#endif //PAC_MAN_GHOST_H
+    directions movement(tilemap& tilemap, const shared_ptr<PacMan>& pacMan, const position& blinky);
+    position targetLocation(const position& target, const directions& pacManDirection, const position& blinky);
+    directions decideDirection(tilemap& tilemap, const position& targetLocation) const;
+    directions calculateFright(tilemap& tilemap, directions d) const;
+    void move(directions e);
+    void changeMode();
+    void resetPosition();
+};
+
+} // namespace Logic
+
+#endif // PAC_MAN_GHOST_H
