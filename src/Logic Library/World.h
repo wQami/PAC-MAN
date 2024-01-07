@@ -27,7 +27,7 @@ namespace Logic {
 
 class World {
 private:
-    sharedmap tilemap;                             // Game map
+    sharedmap tilemap;                           // Game map
     unique_ptr<AbstractFactory> abstractFactory; // Factory for creating the models and views
     vector<shared_ptr<Ghost>> sharedGhosts;      // Shared pointers: Ghosts
     shared_ptr<PacMan> sharedPacMan;             // Shared pointer: Pacman

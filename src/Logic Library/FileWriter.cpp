@@ -67,7 +67,7 @@ void FileWriter::scoreWriter(const vector<int>& highScores) {
 
 void FileWriter::scoreOut(const vector<int>& highScores) {
     cout << "\n --------\nHIGHSCORES\n --------" << endl;
-    for (int i = 0; i < 5; i++) {
+    for (int i = 0; i < highScores.size(); i++) {
         cout << " " << i + 1 << "." << highScores[i] << endl;
     }
     cout << endl;
