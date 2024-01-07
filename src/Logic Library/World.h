@@ -37,10 +37,10 @@ private:
     shared_ptr<Door> sharedDoor;                 // Shared pointer: Door
     vector<position> doorLocations;
 
-    int level{};
-    int ghostsReleased;
-    int lastGhostInterval;
-    directions lastDirection;
+    int level{};              // Current level of the World
+    int ghostsReleased;       // Amount of Ghosts on the map
+    int lastGhostInterval;    // Last interval that release a ghost
+    directions lastDirection; // Last allowed direction Pac-Man moved to
 
 public:
     // GAME-LOOP FUNCTIONS:
@@ -60,11 +60,11 @@ public:
     void movementPacman(directions d); // Decide the movement direction Pac-Man can head
     void movementGhosts();             // Decide the movement direction for each Ghost, all Ghosts at once
     void movementGhost(int i);         // Decide the movement direction for a Ghost, only one Ghost
-    void releaseGhosts();
-    void frightenGhosts();  // Frighten all Ghosts
-    void initCharacters();  // Initializes the startlocation of the characters
-    void syncCharacters();  // Makes sure the characters are on the map
-    void resetCharacters(); // Resets character positions to their startpositions
+    void releaseGhosts();              // Release Ghosts at their respected interval
+    void frightenGhosts();             // Frighten all Ghosts
+    void initCharacters();             // Initializes the startlocation of the characters
+    void syncCharacters();             // Makes sure the characters are on the map
+    void resetCharacters();            // Resets character positions to their startpositions
 
     // GETTERS
     [[nodiscard]] const Logic::tilemap& getTilemap() const;

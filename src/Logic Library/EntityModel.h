@@ -9,9 +9,6 @@
 
 namespace Logic {
 
-typedef shared_ptr<EntityModel> sharedEntityModel;
-typedef vector<vector<sharedEntityModel>> tilemap;
-
 class EntityModel : public Subject {
 private:
     list<shared_ptr<Observer>> _observers;
@@ -42,6 +39,9 @@ public:
     void detach(shared_ptr<Observer>& obs) override;
     void notify() override;
 };
+
+typedef shared_ptr<EntityModel> sharedEntityModel;
+typedef vector<vector<sharedEntityModel>> tilemap;
 } // namespace Logic
 
 #endif // PAC_MAN_ENTITYMODEL_H

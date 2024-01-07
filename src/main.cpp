@@ -8,10 +8,10 @@ using namespace std;
 using namespace sf; // SFML Graphics
 
 int main() {
-    //    Logic::World w("map.txt",5);
-    //    shared_ptr<Logic::Observer> observer = make_shared<Logic::Score>();
-    //    w.attachObservers(observer);
-    //    w.runConsole();
+//    Logic::World w("map.txt",1);
+//    shared_ptr<Logic::Observer> observer = make_shared<Logic::Score>();
+//    w.attachObservers(observer);
+//    w.runConsole();
     Game::Game g;
     g.run();
 }
