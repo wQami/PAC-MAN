@@ -21,7 +21,7 @@ public:
     FileWriter() = default;
 
     explicit FileWriter(string destination);
-    static void mapOut(tilemap& tilemap);
+    static void mapOut(sharedmap& tilemap);
     static void scoreOut(const vector<int>& highScores);
     void scoreWriter(const vector<int>& highScores);
 };

@@ -41,7 +41,7 @@ public:
 };
 
 typedef shared_ptr<EntityModel> sharedEntityModel;
-typedef vector<vector<sharedEntityModel>> tilemap;
+typedef vector<vector<sharedEntityModel>> sharedmap;
 } // namespace Logic
 
 #endif // PAC_MAN_ENTITYMODEL_H

@@ -27,7 +27,7 @@ namespace Logic {
 
 class World {
 private:
-    tilemap tilemap;                             // Game map
+    sharedmap tilemap;                             // Game map
     unique_ptr<AbstractFactory> abstractFactory; // Factory for creating the models and views
     vector<shared_ptr<Ghost>> sharedGhosts;      // Shared pointers: Ghosts
     shared_ptr<PacMan> sharedPacMan;             // Shared pointer: Pacman
@@ -67,7 +67,7 @@ public:
     void resetCharacters();            // Resets character positions to their startpositions
 
     // GETTERS
-    [[nodiscard]] const Logic::tilemap& getTilemap() const;
+    [[nodiscard]] const Logic::sharedmap& getTilemap() const;
     [[nodiscard]] const unique_ptr<AbstractFactory>& getAbstractFactory() const;
 
     // SETTERS

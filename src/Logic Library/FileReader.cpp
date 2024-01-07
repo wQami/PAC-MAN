@@ -8,7 +8,7 @@
 #include <utility>
 
 namespace Logic {
-void FileReader::mapReader(tilemap& tilemap, unique_ptr<AbstractFactory>& abstractFactory) {
+void FileReader::mapReader(sharedmap& tilemap, unique_ptr<AbstractFactory>& abstractFactory) {
     std::ifstream map;
     map.open(PATH_TILEMAPS + fileName);
     string line;

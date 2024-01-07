@@ -18,7 +18,7 @@ private:
 
 public:
     explicit FileReader(string fileName);
-    void mapReader(tilemap& tilemap, unique_ptr<AbstractFactory>& abstractFactory);
+    void mapReader(sharedmap& tilemap, unique_ptr<AbstractFactory>& abstractFactory);
     void scoreReader(vector<int>& highScores);
 };
 

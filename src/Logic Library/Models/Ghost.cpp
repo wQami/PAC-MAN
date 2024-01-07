@@ -63,7 +63,7 @@ void Ghost::gotOutOfCage() { outOfCage = true; }
 
 void Ghost::backInCage() { outOfCage = false; }
 
-directions Ghost::movement(tilemap& tilemap, const shared_ptr<PacMan>& pacMan, const position& blinky) {
+directions Ghost::movement(sharedmap& tilemap, const shared_ptr<PacMan>& pacMan, const position& blinky) {
     position target{};
     Random* rng;
     directions direction;
@@ -123,7 +123,7 @@ position Ghost::targetLocation(const position& target, const directions& pacManD
     return targetingPosition;
 }
 
-directions Ghost::decideDirection(tilemap& tilemap, const position& targetLocation) const {
+directions Ghost::decideDirection(sharedmap& tilemap, const position& targetLocation) const {
     directions direction = UP;
     double minimal = numeric_limits<double>::infinity();
     vector<bool> surroundingTypes = {false, false, false, false};
@@ -158,7 +158,7 @@ directions Ghost::decideDirection(tilemap& tilemap, const position& targetLocati
 
 // First with recursive funtion --> stack Overflow error (Windows).
 
-directions Ghost::calculateFright(tilemap& tilemap, directions d) const {
+directions Ghost::calculateFright(sharedmap& tilemap, directions d) const {
     directions original = d;
     while (true) {
         position nextMove = possibleDirections[d];

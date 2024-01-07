@@ -11,7 +11,7 @@
 namespace Logic {
 FileWriter::FileWriter(string destination) : destination(std::move(destination)) {}
 
-void FileWriter::mapOut(tilemap& tilemap) {
+void FileWriter::mapOut(sharedmap& tilemap) {
     for (auto& i : tilemap) {
         for (const auto& j : i) {
             if (j) {

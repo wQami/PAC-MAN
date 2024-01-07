@@ -44,7 +44,7 @@ void LevelState::draw(RenderWindow& w) {
 }
 
 void LevelState::drawMap(RenderWindow& w) {
-    Logic::tilemap tilemap = world.getTilemap();
+    Logic::sharedmap tilemap = world.getTilemap();
     entities type;
     // algorithm found on YouTube CodeNoodles:  https://www.youtube.com/watch?v=ZXnK0vlSJV8
     for (int i = 0; i < tilemap.size(); ++i) {

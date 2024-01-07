@@ -297,7 +297,7 @@ void World::syncCharacters() {
     tilemap[sharedPacMan->getLocation().x][sharedPacMan->getLocation().y] = sharedPacMan;
 }
 
-const tilemap& World::getTilemap() const { return tilemap; }
+const sharedmap& World::getTilemap() const { return tilemap; }
 
 void World::setAbstractFactory(unique_ptr<AbstractFactory>& aF) { abstractFactory = std::move(aF); }
 

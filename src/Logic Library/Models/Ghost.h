@@ -45,10 +45,10 @@ public:
     void roundWaitTurn();
     void frighten();
 
-    directions movement(tilemap& tilemap, const shared_ptr<PacMan>& pacMan, const position& blinky);
+    directions movement(sharedmap& tilemap, const shared_ptr<PacMan>& pacMan, const position& blinky);
     position targetLocation(const position& target, const directions& pacManDirection, const position& blinky);
-    directions decideDirection(tilemap& tilemap, const position& targetLocation) const;
-    directions calculateFright(tilemap& tilemap, directions d) const;
+    directions decideDirection(sharedmap& tilemap, const position& targetLocation) const;
+    directions calculateFright(sharedmap& tilemap, directions d) const;
     void move(directions e);
     void changeMode();
     void resetPosition();
