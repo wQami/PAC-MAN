@@ -59,7 +59,7 @@ void FileWriter::mapOut(sharedmap& tilemap) {
 
 void FileWriter::scoreWriter(const vector<int>& highScores) {
     ofstream file(destination);
-    for (int i = 0; i < 5; i++) {
+    for (int i = 0; i < highScores.size(); i++) {
         file << i + 1 << ". " << highScores[i] << endl;
     }
     file.close();
